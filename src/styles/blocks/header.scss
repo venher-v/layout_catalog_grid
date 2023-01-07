@@ -4,11 +4,19 @@
   padding: 0 50px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
 
 .nav {
   &__list {
     @extend %display-flex;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__item:not(:last-child) {
