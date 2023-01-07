@@ -7,14 +7,14 @@
   gap: 48px;
 
   @media (max-width: 1023px) {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, $column-width);
   }
 
   @media (max-width: 767px) {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, $column-width);
   }
 
   @media (max-width: 487px) {
-    grid-template-columns: 200px;
+    grid-template-columns: $column-width;
   }
 }
