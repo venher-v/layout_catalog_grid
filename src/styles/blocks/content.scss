@@ -2,19 +2,19 @@
   padding: $content-padding-top 0 $content-padding-bottom;
 
   display: grid;
-  grid-template-columns: repeat(4, $column-width);
+  grid-template-columns: repeat(4, $columnWidth);
   justify-content: center;
   gap: 48px;
 
   @media (max-width: 1023px) {
-    grid-template-columns: repeat(3, $column-width);
+    grid-template-columns: repeat(3, $columnWidth);
   }
 
   @media (max-width: 767px) {
-    grid-template-columns: repeat(2, $column-width);
+    grid-template-columns: repeat(2, $columnWidth);
   }
 
   @media (max-width: 487px) {
-    grid-template-columns: $column-width;
+    grid-template-columns: $columnWidth;
   }
 }
